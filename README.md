@@ -1,0 +1,2 @@
+# Ticaret
+personal project
