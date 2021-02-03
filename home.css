@@ -1,0 +1,67 @@
+ /* div{
+    border: 2px solid black;
+}   */
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-bottom: 2px solid lightgray;
+}
+.icon-container{
+    margin-left: 39px;
+    padding-top: 10px;
+    
+}
+.module2-container{
+    margin-right: 34px;
+    padding-top: 15px;
+    
+}
+.module1-container{
+    font-size: 20px;
+    padding-top: 30px;
+}
+/* when we put button select option field together then we put following option */
+.module2-container > *{
+font-size: 20px;
+
+}
+.movie-text{
+    margin-left: 10px;
+    
+}
+.login{
+    margin-left: 30px;
+    background-color:fuchsia;
+    color:darkblue;
+    border-radius: 15px;
+    border: 0;
+    padding: 3px 24px ;
+    outline: 0;
+    cursor: pointer;
+}
+.user{
+    margin-left: 30px;
+    vertical-align: middle; 
+    border: 0;   
+}
+.location{  
+    
+
+    outline: 0;
+    background-color: transparent;
+    border: 0;
+
+}
+.icon, .booking-text, .movie-text, .login, .location, .user{
+    cursor: pointer;
+}
+.user{
+    
+    margin-top: 12px;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
